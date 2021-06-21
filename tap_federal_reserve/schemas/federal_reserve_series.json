@@ -1,0 +1,51 @@
+{
+  "type": ["object"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "realtime_start": {
+      "type": "string"
+    },
+    "realtime_end": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "observation_start": {
+      "type": "string"
+    },
+    "observation_end": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "string"
+    },
+    "frequency_short": {
+      "type": "string"
+    },
+    "units": {
+      "type": "string"
+    },
+    "units_short": {
+      "type": "string"
+    },
+    "seasonal_adjustment": {
+      "type": "string"
+    },
+    "seasonal_adjustment_short": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "popularity": {
+      "type": "integer"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
