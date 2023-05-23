@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_federal_reserve"],
     install_requires=[
         "singer-python==5.12.1",
-        "requests==2.25.1",
+        "requests==2.31.0",
     ],
     entry_points="""
     [console_scripts]
